@@ -95,6 +95,7 @@ checkBalance(){
 }
 borrowLoan(amount){
     this.balance=this.balance+amount;
+    console.log(this.owner+" borrowed a loan of "+ amount +" New balance is: "+this.balance);
     console.log(`${this.owner} borrowed a loan of ${amount}. New balance is: ${this.balance}`)
 }
 }
