@@ -1,0 +1,20 @@
+.container {
+    background-color: bisque;
+    height: 300px;
+    width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 200px;
+        background-color: green;
+    }
+}
+
+@media screen and (768px<=width<=1024px) {
+    .container {
+        width: 800px;
+        background-color: palevioletred;
+    }
+
+}

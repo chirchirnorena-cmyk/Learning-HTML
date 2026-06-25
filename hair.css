@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #2b2b2b;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #1a1a1a;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #d8a657;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.nav-links a:hover {
+  color: #d8a657;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1600') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background: #d8a657;
+  color: #1a1a1a;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #c0903f;
+}
+
+.services, .pricing, .contact {
+  padding: 70px 60px;
+  text-align: center;
+}
+
+.services h2, .pricing h2, .contact h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.service-cards, .price-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card, .price-card {
+  background: #f7f3ee;
+  padding: 30px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h3, .price-card h3 {
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.price {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #d8a657;
+}
+
+.contact {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contactForm input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+#contactForm button {
+  background: #d8a657;
+  color: #1a1a1a;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background: #c0903f;
+}
+
+#formMessage {
+  margin-top: 16px;
+  color: #d8a657;
+}

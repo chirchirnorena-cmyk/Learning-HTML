@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2b2b2b;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #2b2027;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #b695c0;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #b695c0;
+}
+
+.home {
+    height: 90vh;
+    background: linear-gradient(rgba(86, 60, 92, 0.6), rgba(86, 60, 92, 0.6)), url("hairsalon.jpeg") center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.home h1 {
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+
+.home h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.btn {
+    background: #b695c0;
+    color: #2b2027;
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #967bb6;
+}
+
+
+.services {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    display: inline-block;
+    background: #f7f3ee;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.service-card h3 {
+    margin-bottom: 12px;
+}
+
+
+.ourstylists {
+    padding: 70px 60px;
+    text-align: center;
+    background: #f7f3ee;
+}
+
+.ourstylists h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.stylists {
+    display: inline-block;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 220px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.stylists h4 {
+    margin-bottom: 8px;
+    color: #2b2027;
+}
+
+.stylists p {
+    color: #b695c0;
+    font-weight: bold;
+}
+
+/* CONTACT */
+.contact {
+    background: #2b2027;
+    color: #fff;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 30px;
+}
+
+#ContactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#ContactUs label {
+    align-self: flex-start;
+    font-size: 0.9em;
+    margin-bottom: -8px;
+}
+
+#ContactUs input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+}
+
+#ContactUs button {
+    background: #b695c0;
+    color: #2b2027;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#ContactUs button:hover {
+    background: #967bb6;
+}
+.pricing {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.pricing h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.price-card {
+    display: inline-block;
+    background: #f7f3ee;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.price-card h3 {
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #967bb6;
+}
